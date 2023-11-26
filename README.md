@@ -4,4 +4,4 @@ Toy version of [W3C VoiceXML specification](https://www.w3.org/TR/voicexml20/) i
 
 ## Metamodel
 
-![Mini Voice XML Metamodel](/Users/dk135/git/minivoicexml/screenshots/metamodel.png)
+![Mini Voice XML Metamodel](screenshots/metamodel.png)
