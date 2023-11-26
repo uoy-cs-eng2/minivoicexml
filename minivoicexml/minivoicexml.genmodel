@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/minivoicexml/src" modelPluginID="minivoicexml"
+    modelName="Minivoicexml" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>minivoicexml.ecore</foreignModel>
+  <genPackages prefix="Minivoicexml" disposableProviderFactory="true" ecorePackage="minivoicexml.ecore#/">
+    <genClasses ecoreClass="minivoicexml.ecore#//Document">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference minivoicexml.ecore#//Document/dialogs"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="minivoicexml.ecore#//Dialog">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute minivoicexml.ecore#//Dialog/id"/>
+    </genClasses>
+    <genClasses ecoreClass="minivoicexml.ecore#//Form">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference minivoicexml.ecore#//Form/items"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="minivoicexml.ecore#//FormItem">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute minivoicexml.ecore#//FormItem/name"/>
+    </genClasses>
+    <genClasses ecoreClass="minivoicexml.ecore#//Field">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference minivoicexml.ecore#//Field/prompt"/>
+    </genClasses>
+    <genClasses ecoreClass="minivoicexml.ecore#//Block">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference minivoicexml.ecore#//Block/content"/>
+    </genClasses>
+    <genClasses ecoreClass="minivoicexml.ecore#//Transfer">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute minivoicexml.ecore#//Transfer/dest"/>
+    </genClasses>
+    <genClasses ecoreClass="minivoicexml.ecore#//Menu">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference minivoicexml.ecore#//Menu/prompt"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference minivoicexml.ecore#//Menu/choices"/>
+    </genClasses>
+    <genClasses ecoreClass="minivoicexml.ecore#//Choice">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute minivoicexml.ecore#//Choice/text"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute minivoicexml.ecore#//Choice/dtmf"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference minivoicexml.ecore#//Choice/next"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="minivoicexml.ecore#//ExecutableContent"/>
+    <genClasses ecoreClass="minivoicexml.ecore#//Prompt">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute minivoicexml.ecore#//Prompt/text"/>
+    </genClasses>
+    <genClasses ecoreClass="minivoicexml.ecore#//GoTo">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference minivoicexml.ecore#//GoTo/next"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
