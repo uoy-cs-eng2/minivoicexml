@@ -12,6 +12,6 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="minivoicexml.interpreter.Launcher"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="minivoicexml.interpreter"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="${resource_loc:/callcenterdsl2minivoicexml/generated-voicexml.model}"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="${resource_loc:/callcentre2minivoicexml/generated-voicexml.model}"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="minivoicexml.interpreter"/>
 </launchConfiguration>
